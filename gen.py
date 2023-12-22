@@ -11,10 +11,7 @@ blue = '\x1b[34m(+)\x1b[0m'
 green = '\x1b[32m(+)\x1b[0m'
 yellow = '\x1b[33m(!)\x1b[0m'
 
-def get_timestamp():
-    time_idk = time.strftime('%H:%M:%S')
-    timestamp = f'[\x1b[90m{time_idk}\x1b[0m]'
-    return timestamp
+
 
 def generate_random_id():
     characters = string.ascii_letters + string.digits
